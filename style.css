@@ -12,7 +12,7 @@ body{
 
 h1{
     color: #3F3D56;
-    text-align: center;
+    margin: 34px auto;
     font-family: Dosis;
     font-size: 32px;
     font-style: normal;
@@ -30,7 +30,8 @@ h1 span{
 }
 
 p{
-    width: 540px;
+    width: 90%;
+    max-width: 540px;
 
     color: #828282;
     margin: 16px auto;
@@ -85,4 +86,9 @@ a{
 #footer img{
     margin-bottom: -5px;
     width: 100%;
+}
+
+p, h1, #links{
+    width: 90%;
+    max-width: 540px;
 }
