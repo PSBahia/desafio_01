@@ -56,7 +56,8 @@ p span{
 }
 
 #line{
-    width: 390px;
+    min-width: 200px;
+    max-width: 390px;
     margin: 0 auto 16px;
     border: solid 1px #ECEFF2;
 }
